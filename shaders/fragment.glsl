@@ -18,16 +18,7 @@ float normaliseOne(float r){
 
 void main() {
 
-    // float r2 = normaliseOne(radius);
-    // vec2 c2 = cordinateToNDC(center);
-
-        
-    // float dist  = distance(fPos , c2);
-
-    // if(dist <= r2)
-    //     FragColor = vec4(1.0, 0.0 ,0.0 ,1.0);
-    // else 
-    //     FragColor = vec4(0.0, 0.0,0.0,1.0);
+    
 
 
         FragColor = vec4( (fPos.x+1.0 ) / 2.0 ,  (1.0 - fPos.y) / 2.0, 0.0, 1.0);
